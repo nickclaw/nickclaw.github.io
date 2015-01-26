@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+body {
+    background-color: black;
+    font-size: 12pt;
+    font-family: sans-serif;
+}
+
+path {
+    fill: white;
+}
+
+section {
+    a {
+        height: 450px;
+        display: block;
+        text-decoration: none;
+    }
+
+    h2 {
+        color: white;
+        font-size: 3.5rem;
+        top: 200px;
+        width: 500px;
+        display: block;
+        margin: 0 auto;
+        text-align: right;
+
+        transition: all .5s linear;
+    }
+
+    .image-container, .image, .image-cover {
+        width: 100%;
+        height: 200px;
+    }
+
+    .image-container {
+        position: relative;
+    }
+
+    .image {
+        background-color: white;
+    }
+
+    .image-cover {
+        background-color: black;
+    }
+
+    &:hover {
+        h2 {
+            top: 230px;
+        }
+    }
+}
+
+#i {
+    fill: url(#SVGID_1_);
+}
